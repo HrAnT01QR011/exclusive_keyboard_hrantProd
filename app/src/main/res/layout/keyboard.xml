@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This class is deprecated because this is just a convenient UI widget
+class that application developers can re-implement on top of existing public APIs.
+
+Այս դասը արժեզրկվում է, քանի որ սա պարզապես հարմար UI widget դաս է, որը ծրագրավորող
+ծրագրավորողները կարող են նորից իրականացնել գոյություն ունեցող հանրային API- ների վերևում:
+-->
+<android.inputmethodservice.KeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:keyPreviewLayout="@layout/preview"
+    android:layout_alignParentBottom="true">
+
+</android.inputmethodservice.KeyboardView>
